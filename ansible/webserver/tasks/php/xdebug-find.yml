@@ -1,0 +1,6 @@
+---
+ - name: Locate xdebug.so
+   shell: "find / -name 'xdebug.so' 1> /dev/null"
+   register: xdebug_loaction
+   ignore_errors: false
+

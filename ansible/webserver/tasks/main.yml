@@ -1,0 +1,6 @@
+---
+ - include: php/repository.yml
+ - include: ../../system/tasks/apt/upgrade.yml
+ - include: php/php.yml
+ - include: php/curl.yml
+ - include: composer/composer.yml

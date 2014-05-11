@@ -1,0 +1,4 @@
+---
+ - name: Add a repo to get the latest php5 version
+   apt_repository: repo="ppa:ondrej/php5" state=present update_cache=yes
+

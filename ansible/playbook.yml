@@ -1,0 +1,5 @@
+---
+- hosts: codesniffer
+  sudo: true
+  roles:
+   - webserver

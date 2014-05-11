@@ -1,0 +1,5 @@
+---
+ - name: Create vhost record
+   template: src=flashcards dest=/etc/apache2/sites-available/flashcards
+   notify:
+     - Restart Apache

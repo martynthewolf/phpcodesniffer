@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+    ServerName dev.flashcards
+	DocumentRoot /var/www/
+	<Directory /var/www/>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride None
+		Order allow,deny
+		allow from all
+	</Directory>
+</VirtualHost>
