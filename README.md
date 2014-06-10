@@ -1,3 +1,14 @@
 ### PHPCodeSniffer
 
-This is the repository that will form a part of an article series.
+This repo is a short demo of some of the capabilities of PHP Codesniffer.
+
+####Dependencies
+
+To use the demo in this repo you'll need:
+
+- [vagant](http://www.vagrantup.com/)
+- [ansible](http://www.ansible.com/home)
+
+installed locally.
+
+

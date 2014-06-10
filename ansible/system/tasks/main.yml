@@ -1,2 +1,3 @@
 ---
  - include: python/pycurl.yml
+ - include: apt/wget.yml
